@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="8:46 pm, changes">
-      <change afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vector_db.py" afterDir="false" />
+    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="vector db, llama index for the PDFs">
+      <change afterPath="$PROJECT_DIR$/custom_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +82,7 @@
       <workItem from="1778471947526" duration="8254000" />
       <workItem from="1778535377757" duration="242000" />
       <workItem from="1778551172540" duration="2305000" />
-      <workItem from="1778598735065" duration="3342000" />
+      <workItem from="1778598735065" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -108,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778554031125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="vector db, llama index for the PDFs">
+      <option name="closed" value="true" />
+      <created>1778603883109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1778603883109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +146,7 @@
     <MESSAGE value="testing rep" />
     <MESSAGE value="add it API key for OpenAI" />
     <MESSAGE value="8:46 pm, changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="8:46 pm, changes" />
+    <MESSAGE value="vector db, llama index for the PDFs" />
+    <option name="LAST_COMMIT_MESSAGE" value="vector db, llama index for the PDFs" />
   </component>
 </project>
