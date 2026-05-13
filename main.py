@@ -87,6 +87,7 @@ async def rag_query_pdf_ai(ctx: inngest.Context):
 
     question = ctx.event.data["question"]
     top_k = int(ctx.event.data.get("top_k", 5))
+    language = ctx.event.data.get("language", "English")
 
     found = await ctx.step.run("embed-and-search", lambda: _search(question, top_k), output_type=RAGSearchResult)
 
@@ -110,7 +111,10 @@ async def rag_query_pdf_ai(ctx: inngest.Context):
             "max_tokens": 1024,
             "temperature": 0.2,
             "messages": [
-                {"role": "system", "content": "You answer questions using only the provided context."},
+                {"role": "system",
+                    "content": (
+                        f"You answer questions using only the provided context. "
+                        f"Always respond in {language}.")},
                 {"role": "user", "content": user_content}
             ]
         }
