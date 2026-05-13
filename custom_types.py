@@ -4,7 +4,7 @@ from pydantic_core.core_schema import none_schema
 
 class RAGChunkAndSrc(pydantic.BaseModel):
     chunks: list[str]
-    source: str = None
+    source_id: str | None = None
 
 class RAGUpsertResult(pydantic.BaseModel):
     ingested:int

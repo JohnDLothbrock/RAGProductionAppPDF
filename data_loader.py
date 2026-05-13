@@ -20,7 +20,7 @@ splitter = SentenceSplitter(chunk_size=1000, chunk_overlap=200)
 #next function basically does this: PDF → extract text → split into smaller chunks → return chunks
 #This is necessary because LLMs and embedding models do NOT work well with huge documents at once
 def load_and_chunk_pdf(pdf_path: str):
-    docs = PDFReader().load_data(file=path)
+    docs = PDFReader().load_data(file=pdf_path)
     texts = [d.text for d in docs if getattr(d, "text", None)]
     chunks = []
     for t in texts:
@@ -28,7 +28,7 @@ def load_and_chunk_pdf(pdf_path: str):
     return chunks
 
 #this one receives chunks of text, sends them to an embedding model(openAi), converts text into vectors, returns embeddings
-def embed_texts(texts: list[str]): -> list[list[float]]:
+def embed_texts(texts: list[str]) ->list[list[float]]:
     response = client.embeddings.create(
         model= EMBED_MODEL,
         input=texts,

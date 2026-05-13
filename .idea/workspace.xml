@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="finished functions for data_loader&#10;first one does the extract, splits chunks, returns &#10;second one, receives, embedes/coverts into vectors, returns">
+    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="created models for custom_types.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vector_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/vector_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,7 @@
       <workItem from="1778471947526" duration="8254000" />
       <workItem from="1778535377757" duration="242000" />
       <workItem from="1778551172540" duration="2305000" />
-      <workItem from="1778598735065" duration="6469000" />
+      <workItem from="1778598735065" duration="10747000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -129,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778640662460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created models for custom_types.py">
+      <option name="closed" value="true" />
+      <created>1778641285272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778641285272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +165,7 @@
     <MESSAGE value="8:46 pm, changes" />
     <MESSAGE value="vector db, llama index for the PDFs" />
     <MESSAGE value="finished functions for data_loader&#10;first one does the extract, splits chunks, returns &#10;second one, receives, embedes/coverts into vectors, returns" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished functions for data_loader&#10;first one does the extract, splits chunks, returns &#10;second one, receives, embedes/coverts into vectors, returns" />
+    <MESSAGE value="created models for custom_types.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="created models for custom_types.py" />
   </component>
 </project>
