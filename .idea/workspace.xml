@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="created models for custom_types.py">
+    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vector_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/vector_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/newest_clocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/newest_clocks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/bitmask.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/bitmask.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/gaps.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/gaps.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/page_0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/page_0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/tracker.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/payload_storage/tracker.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/segment.json" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/segment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/vector_storage/deleted/status.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/vector_storage/deleted/status.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/vector_storage/vectors/status.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/1adb7a13-9c6f-4bd9-94da-01bd0692815f/vector_storage/vectors/status.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/first-index" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/first-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/open-1" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/open-1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +90,9 @@
       <workItem from="1778471947526" duration="8254000" />
       <workItem from="1778535377757" duration="242000" />
       <workItem from="1778551172540" duration="2305000" />
-      <workItem from="1778598735065" duration="10747000" />
+      <workItem from="1778598735065" duration="11041000" />
+      <workItem from="1778684020399" duration="595000" />
+      <workItem from="1778686035930" duration="6003000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -141,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778641285272</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="soem changes need it to be done due to some errors, seems like new versions of Quadrant work a little different now">
+      <option name="closed" value="true" />
+      <created>1778645466176</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778645466176</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +183,7 @@
     <MESSAGE value="vector db, llama index for the PDFs" />
     <MESSAGE value="finished functions for data_loader&#10;first one does the extract, splits chunks, returns &#10;second one, receives, embedes/coverts into vectors, returns" />
     <MESSAGE value="created models for custom_types.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="created models for custom_types.py" />
+    <MESSAGE value="soem changes need it to be done due to some errors, seems like new versions of Quadrant work a little different now" />
+    <option name="LAST_COMMIT_MESSAGE" value="soem changes need it to be done due to some errors, seems like new versions of Quadrant work a little different now" />
   </component>
 </project>
