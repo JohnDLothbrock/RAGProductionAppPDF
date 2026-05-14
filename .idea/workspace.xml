@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/screenshots/AiAnswer1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/AiAnswer2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/Question1Doc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home1english.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home2english.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home3espanol.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/lefPanel2Smaller.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/leftPanel1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/upload1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/newest_clocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/newest_clocks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/bitmask.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/bitmask.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/gaps.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/gaps.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/page_0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/page_0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/tracker.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/payload_storage/tracker.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/segment.json" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/segment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/vector_storage/deleted/status.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/vector_storage/deleted/status.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/vector_storage/vectors/status.dat" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/segments/91c80fbe-8532-48e2-98fd-e18275585a1e/vector_storage/vectors/status.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/first-index" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/first-index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/open-1" beforeDir="false" afterPath="$PROJECT_DIR$/qdrant_storage/collections/docs/0/wal/open-1" afterDir="false" />
+    <list default="true" id="4649641c-3087-40f7-ab46-76f5b596743e" name="Changes" comment="documentation, readme and screenshots">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +89,7 @@
       <workItem from="1778598735065" duration="11041000" />
       <workItem from="1778684020399" duration="595000" />
       <workItem from="1778686035930" duration="12481000" />
-      <workItem from="1778723187204" duration="2313000" />
+      <workItem from="1778723187204" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -208,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778711809692</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="documentation, readme and screenshots">
+      <option name="closed" value="true" />
+      <created>1778725567143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778725567143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +225,7 @@
     <MESSAGE value="code for the frontend, did not adorn it a lot to make it a little minimalist/simple" />
     <MESSAGE value="changes to the interface, a little of color and some other options" />
     <MESSAGE value="made changes to add language, spanish and english&#10;changes for system to reply in both&#10;add it chat history&#10;Add it a &quot;clear&quot; chat button" />
-    <option name="LAST_COMMIT_MESSAGE" value="made changes to add language, spanish and english&#10;changes for system to reply in both&#10;add it chat history&#10;Add it a &quot;clear&quot; chat button" />
+    <MESSAGE value="documentation, readme and screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="documentation, readme and screenshots" />
   </component>
 </project>
