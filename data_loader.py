@@ -10,7 +10,7 @@ load_dotenv()
 client = OpenAI()
 
 #we cannot embed the entire pdf
-#embed means basically just convert the data into a vector to store it in the db
+#remember: embed means basically just convert the data into a vector to store it in the db
 #for the pdf file we need to chunk it to smaller pieces and then embed those pieces
 EMBED_MODEL = "text-embedding-3-large"
 EMBED_DIM = 3072
