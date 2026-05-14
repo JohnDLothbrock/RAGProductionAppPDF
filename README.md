@@ -45,19 +45,38 @@ User uploads PDF → PDF gets chunked → embeddings are generated → vectors s
 
 ### Main Interface
 
-![Home](screenshots/home.png)
+![Home](screenshots/home1english.jpg)
+
+![Home1](screenshots/home2english.jpg)
+
+![Home2](screenshots/home3espanol.jpg)
 
 ---
 
 ### Upload PDF
 
-![Upload](screenshots/upload.png)
+![Upload](screenshots/upload1.jpg)
 
 ---
 
-### AI Answer
+### Question and AI Answer
+#### Is important to mention that the document was in spanish, question and answer in english to showcase the app depth.
 
-![Answer](screenshots/answer.png)
+![Answer](screenshots/AiAnswer1.jpg)
+
+![Answer1](screenshots/AiAnswer2.jpg)
+
+---
+
+### Left Panel Versatility and "Clear Chat" Button Display
+#### Left Panel can change sizes or get hidden
+
+![LeftPanel](screenshots/leftPanel1.jpg)
+
+![LeftPanel](screenshots/lefPanel2Smaller.jpg)
+
+![LeftPanel](screenshots/leftPanelBigger.png)
+
 
 ---
 
@@ -174,9 +193,9 @@ streamlit run streamlit_app.py
 - Cloud deployment
 
 ---
-## 👨‍💻 Author
+##  Author
 
-Juan Andrey Ureña Chaves
+### Juan Andrey Ureña Chaves
 
 Computer Software Engineering project:
 - Backend Development
